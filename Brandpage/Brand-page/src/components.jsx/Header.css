@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.nav-bt{
+    margin: 0 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo-img{
+    margin: 10px 20px;
+}
+
+.nav-bt-cont{
+    margin-left: 37%;
+    text-align: center;
+}
+
+.login-bt{
+    background-color: red;
+    color: aliceblue;
+    font-weight: 550;
+    border: none;
+    margin-right: 0.5%;
+    margin-left: 30%;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}

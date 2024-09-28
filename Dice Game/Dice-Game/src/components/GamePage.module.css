@@ -1,0 +1,144 @@
+.Buttons{
+    margin-left: 38%;
+    width: 50%;
+}
+
+.Score{
+    font-size: 32px;
+    font-weight: 550;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.Ongoingscore{
+    text-align: center;
+    font-weight: 700;
+}
+
+.head{
+    display: flex;
+}
+
+.bt{
+    margin: 5%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 1px;
+    &:hover{
+        background-color: black;
+        border: 1px solid black;
+        font-weight: 700;
+        color: rgb(247, 249, 251);
+        transition: 0.1s ease-in;
+    }
+}
+
+.Select{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40%;
+}
+
+.rulesbt{
+    height: 40px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 90%;
+    margin: 6% 5%;
+    &:hover{
+        background-color: rgb(174, 95, 95);
+        border: 1px solid black;
+        color: rgb(92, 228, 111);
+        transition: 0.1s ease-in;
+    }
+    
+}
+
+.resetbt{
+    height: 40px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    margin: 10% 5%;
+    &:hover{
+        background-color: black;
+        border: 1px solid black;
+        color:white;
+        transition: 0.1s ease-in;
+    }
+}
+
+.body{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    cursor: pointer;
+    margin-left: 5%;
+    width: 90%;
+    transition: transform 1s ease; 
+}
+
+.img:hover {
+    animation-name: tilt;
+    animation-duration: 1s;
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.role{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.role1{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+}
+
+.rules{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    background-color: rgb(200, 166, 103);
+}
+
+.hide{
+    cursor: pointer;
+    margin-top: 10px;
+    &:hover{
+        background-color: black;
+        color:white;
+        transition: 0.1s ease-in;
+    }
+}

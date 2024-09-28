@@ -1,0 +1,50 @@
+.main-body{
+    display: flex;
+}
+
+#heading{
+ font-size: 50px;
+}
+
+.main-body{
+ align-items: center;
+}
+
+.img{
+    align-items: center;
+    margin-top: 7%;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10px;
+    max-width: 1200px;
+}
+
+.shop{
+    width: 150px;
+    height: 41px;
+    background-color: red;
+    border: none;
+    margin-right: 40px ;
+    cursor: pointer;
+}
+
+.category{
+    width: 150px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.cont-bt{
+    margin: 30px 0;
+}
+
+#sites-logo{
+    margin-top: 20px;
+}
+
+.para{
+    margin-right: 54%;
+    font-size: 20px;
+}
