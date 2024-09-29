@@ -10,7 +10,7 @@ const Rules = ({ show }) => {
           After clicking on dice if selected number is equal to dice number you
           will get same point as dice
         </li>
-        <li>If you get wrong guess , then 2 points will be dedcuted </li>
+        <li>If you get wrong guess , then 2 points will be deducted </li>
       </div>
       <button className={styles.hide} onClick={show}>
         Hide rules
