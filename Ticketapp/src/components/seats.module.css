@@ -1,0 +1,85 @@
+.sectionhead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(67, 9, 240);
+    background-color: rgb(255, 187, 0);
+}
+
+.sectionvip{
+   margin: 3rem 0;
+   background-image: url('./vip.jpg');
+   background-position: center;
+   padding-bottom: 1rem;
+}
+.sectiongeneral{
+   margin: 3rem 0;
+   background-image: url('./economyclass.jpg');
+   background-position: center;
+   padding-bottom: 1rem;
+}
+.sectioneconomy{
+   margin: 3rem 0;
+   background-image: url('./general.jpg');
+   background-position: center;
+   padding-bottom: 1rem;
+}
+
+.seatsvip{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    gap: 1px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px ;
+    height: fit-content;
+}
+.seatsgeneral{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    gap: 1px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px ;
+    height: fit-content;
+}
+.seatseconomy{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    gap: 1px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    height: fit-content;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: greenyellow;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.confirmbt{
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+.confirm{
+    display: flex;
+    justify-content: center;
+}
+
+.selected{
+    background-color: white;
+    border: 3px solid red;
+}
